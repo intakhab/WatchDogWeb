@@ -29,54 +29,42 @@
     <enableMail>true</enableMail>
     <flag>true</flag>
     <stopFileRun>false</stopFileRun>
-    <stopBatchRun>false</stopBatchRun>
-    <stopNonEdiBatchRun>false</stopNonEdiBatchRun>
+    <stopBatchRun>true</stopBatchRun>
+    <stopNonEdiBatchRun>true</stopNonEdiBatchRun>
     <limitFilesFolder>100</limitFilesFolder>
-    <stopSoBatchRun>false</stopSoBatchRun>
-    <soOrderInputFolderPath>c:/dataload/TMAPIBatch/SOInput</soOrderInputFolderPath>
+    <stopSoBatchRun>true</stopSoBatchRun>
+    <soOrderInputFolderPath>C:/dataload/TMAPIBatch/SOInput</soOrderInputFolderPath>
     <soOrderSupportsAPI>G1-processSelectForOptimization@{SystemPlanID=PUT},G2-processSendToOptimizer@{SystemPlanID=PUT}</soOrderSupportsAPI>
-    <enableStartupEmail>false</enableStartupEmail>
-    <enableShutdownEmail>false</enableShutdownEmail>
+    <enableStartupEmail>true</enableStartupEmail>
+    <enableShutdownEmail>true</enableShutdownEmail>
     <fbPayFileSupports>fbprocess</fbPayFileSupports>
-    <fbPayInputFolderPath>c:/dataload/TMAPIBatch/FBPay</fbPayInputFolderPath>
+    <fbPayInputFolderPath>C:\dataload\TMAPIBatch\FBPay</fbPayInputFolderPath>
     <fbPaySupportsAPI>processUpdateFBPayStatus@{SystemFreightBillID=READ},findEntities@{SystemFreightBillID=PUT}</fbPaySupportsAPI>
-    <bulkSupportsAPI>findEntities_processSetAllToPlanned@{SystemLoadID=READ|PlanID=PUT}</bulkSupportsAPI>
+    <stopBulkBatchRun>true</stopBulkBatchRun>
+    <bulkSupportsAPI>G1-findEntities_processSetAllToPlanned@{SystemLoadID=READ_PUT|PlanID=READ_PUT},G1-findEntities_processStopConfirm@{SystemLoadID=READ_PUT|SystemLoadID=READ_PUT}</bulkSupportsAPI>
     <bulkFileSupports>blk</bulkFileSupports>
-    <bulkInputFolderPath>C:/dataload/TMAPIBatch/BLK</bulkInputFolderPath>
+    <bulkInputFolderPath>Input/BLK-Input</bulkInputFolderPath>
     <xcronConfig>
-        <bulkPoollingTimeG1>00 37 21 * * *</bulkPoollingTimeG1>
+        <bulkPoollingTimeG1>00 30 21 * * *</bulkPoollingTimeG1>
         <filePollingTime>1</filePollingTime>
-        <finCronTimeG1>00 34 19 * * *</finCronTimeG1>
-        <finCronTimeG2>00 57 23 * * *</finCronTimeG2>
-        <finCronTimeG3>00 58 23 * * *</finCronTimeG3>
-        <finCronTimeG4>00 59 13 * * *</finCronTimeG4>
-        <nonEdiPoollingTimeG1>10</nonEdiPoollingTimeG1>
-        <nonEdiPoollingTimeW1>12</nonEdiPoollingTimeW1>
-        <nonEdiPoollingTimeW2>14</nonEdiPoollingTimeW2>
-        <soCronTimeG1>00 10 15 * * *</soCronTimeG1>
-        <soCronTimeG2>00 15 15 * * *</soCronTimeG2>
+        <finCronTimeG1>00 00 21 * * *</finCronTimeG1>
+        <finCronTimeG2>00 05 21 * * *</finCronTimeG2>
+        <finCronTimeG3>00 25 21 * * *</finCronTimeG3>
+        <finCronTimeG4>00 35 21 * * *</finCronTimeG4>
+        <nonEdiPoollingTimeG1>30</nonEdiPoollingTimeG1>
+        <nonEdiPoollingTimeW1>35</nonEdiPoollingTimeW1>
+        <nonEdiPoollingTimeW2>40</nonEdiPoollingTimeW2>
+        <soCronTimeG1>00 15 22 * * *</soCronTimeG1>
+        <soCronTimeG2>00 45 22 * * *</soCronTimeG2>
     </xcronConfig>
     <xmailConfig>
         <debugMail>false</debugMail>
-        <fromMail>WatchDog</fromMail>
+        <fromMail>mail.from.watchdog@gmail.com</fromMail>
         <host>smtp.gmail.com</host>
-        <password></password>
+        <password>watchdog@123</password>
         <port>587</port>
-        <username>irin.irani@gmail.com</username>
+        <username>mail.from.watchdog@gmail.com</username>
     </xmailConfig>
-    <autoPilot>false</autoPilot>
+    <autoPilot>true</autoPilot>
     <autoPilotCron>00 00 05 * * *</autoPilotCron>
-    <enableAlmReport>true</enableAlmReport>
-    <xalmConfig>
-        <almConfigG1>00 00 09 * * *</almConfigG1>
-        <almConfigG2>00 00 18 * * *</almConfigG2>
-        <almDomain>WINE_OPERATIONS</almDomain>
-        <almHost>cbigdc-isapk901.cbi.net</almHost>
-        <almMailGroup>intakhabalam.s@hcl.com</almMailGroup>
-        <almPageSize>1000</almPageSize>
-        <almPassword>jchandran</almPassword>
-        <almPort>8080</almPort>
-        <almProject></almProject>
-        <almUserName>jchandran</almUserName>
-    </xalmConfig>
 </DogInfoConfiguration>

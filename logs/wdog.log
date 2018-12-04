@@ -1,0 +1,533 @@
+[ ERROR ] - 2018-12-04 12:16:21 - [  o.s.b.c.l.LoggingApplicationListener:317  ]- Cannot set level: debug		 for 'com.app'
+[ ERROR ] - 2018-12-04 12:16:21 - [  o.s.b.c.l.LoggingApplicationListener:317  ]- Cannot set level: debug		 for 'com.hcl'
+[ INFO  ] - 2018-12-04 12:16:22 - [  c.h.WatchDogWebApp:50  ]- Starting WatchDogWebApp v2.5-SNAPSHOT on LP-5CD809BB4K with PID 167836 (C:\Users\intakhabalam.s\Desktop\ftp\Watch-Dog-Web\WatchDog.war started by intakhabalam.s in C:\Users\intakhabalam.s\Desktop\ftp\Watch-Dog-Web)
+[ INFO  ] - 2018-12-04 12:16:22 - [  c.h.WatchDogWebApp:654  ]- No active profile set, falling back to default profiles: default
+[ INFO  ] - 2018-12-04 12:16:22 - [  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:588  ]- Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1117f44: startup date [Tue Dec 04 12:16:22 IST 2018]; root of context hierarchy
+[ INFO  ] - 2018-12-04 12:16:26 - [  o.s.b.w.e.t.TomcatWebServer:91  ]- Tomcat initialized with port(s): 5401 (http)
+[ INFO  ] - 2018-12-04 12:16:26 - [  o.a.c.c.StandardService:180  ]- Starting service [Tomcat]
+[ INFO  ] - 2018-12-04 12:16:26 - [  o.a.c.c.StandardEngine:180  ]- Starting Servlet Engine: Apache Tomcat/8.5.34
+[ INFO  ] - 2018-12-04 12:16:26 - [  o.a.c.c.AprLifecycleListener:180  ]- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Windows\CCM;C:\Workspace\installer\node-v8.11.1;C:\Workspace\installer\Git\cmd\git.exe;C:\Workspace\installer\Git\cmd;C:\Workspace\installer\jdk1.8.0_101\bin;C:\Users\intakhabalam.s\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;.]
+[ INFO  ] - 2018-12-04 12:16:28 - [  o.a.j.s.TldScanner:180  ]- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[ INFO  ] - 2018-12-04 12:16:29 - [  o.a.c.c.C.[.[.[/]:180  ]- Initializing Spring embedded WebApplicationContext
+[ INFO  ] - 2018-12-04 12:16:29 - [  o.s.w.c.ContextLoader:285  ]- Root WebApplicationContext: initialization completed in 7178 ms
+[ INFO  ] - 2018-12-04 12:16:31 - [  o.s.b.w.s.FilterRegistrationBean:245  ]- Mapping filter: 'webFilter' to: [/*]
+[ INFO  ] - 2018-12-04 12:16:31 - [  o.s.b.w.s.FilterRegistrationBean:245  ]- Mapping filter: 'characterEncodingFilter' to: [/*]
+[ INFO  ] - 2018-12-04 12:16:31 - [  o.s.b.w.s.FilterRegistrationBean:245  ]- Mapping filter: 'webMvcMetricsFilter' to: [/*]
+[ INFO  ] - 2018-12-04 12:16:31 - [  o.s.b.w.s.FilterRegistrationBean:245  ]- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[ INFO  ] - 2018-12-04 12:16:31 - [  o.s.b.w.s.FilterRegistrationBean:245  ]- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[ INFO  ] - 2018-12-04 12:16:31 - [  o.s.b.w.s.FilterRegistrationBean:245  ]- Mapping filter: 'requestContextFilter' to: [/*]
+[ INFO  ] - 2018-12-04 12:16:31 - [  o.s.b.w.s.FilterRegistrationBean:245  ]- Mapping filter: 'httpTraceFilter' to: [/*]
+[ INFO  ] - 2018-12-04 12:16:31 - [  o.s.b.w.s.ServletRegistrationBean:187  ]- Servlet dispatcherServlet mapped to [/]
+[ INFO  ] - 2018-12-04 12:16:31 - [  setting-serv:154  ]- Converting Object To Dto
+[ INFO  ] - 2018-12-04 12:16:31 - [  xmlutil-serv:92  ]- Data unmarshal sucessfully...
+[ INFO  ] - 2018-12-04 12:16:31 - [  dataload-comp:48  ]- Configuration data loading from DB
+[ INFO  ] - 2018-12-04 12:16:31 - [  o.q.i.StdSchedulerFactory:1208  ]- Using default implementation for ThreadExecutor
+[ INFO  ] - 2018-12-04 12:16:31 - [  o.q.c.SchedulerSignalerImpl:61  ]- Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[ INFO  ] - 2018-12-04 12:16:31 - [  o.q.c.QuartzScheduler:229  ]- Quartz Scheduler v.2.3.0 created.
+[ INFO  ] - 2018-12-04 12:16:31 - [  o.q.s.RAMJobStore:155  ]- RAMJobStore initialized.
+[ INFO  ] - 2018-12-04 12:16:31 - [  o.q.c.QuartzScheduler:294  ]- Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[ INFO  ] - 2018-12-04 12:16:31 - [  o.q.i.StdSchedulerFactory:1362  ]- Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[ INFO  ] - 2018-12-04 12:16:31 - [  o.q.i.StdSchedulerFactory:1366  ]- Quartz scheduler version: 2.3.0
+[ INFO  ] - 2018-12-04 12:16:31 - [  o.q.c.QuartzScheduler:2287  ]- JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@ad3bc1
+[ INFO  ] - 2018-12-04 12:16:31 - [  dog-comp:87  ]- 
+
+ __        __          _            _         ____                      ____    _                    _     _                 
+ \ \      / /   __ _  | |_    ___  | |__     |  _ \    ___     __ _    / ___|  | |_    __ _   _ __  | |_  (_)  _ __     __ _ 
+  \ \ /\ / /   / _` | | __|  / __| | '_ \    | | | |  / _ \   / _` |   \___ \  | __|  / _` | | '__| | __| | | | '_ \   / _` |
+   \ V  V /   | (_| | | |_  | (__  | | | |   | |_| | | (_) | | (_| |    ___) | | |_  | (_| | | |    | |_  | | | | | | | (_| |
+    \_/\_/     \__,_|  \__|  \___| |_| |_|   |____/   \___/   \__, |   |____/   \__|  \__,_| |_|     \__| |_| |_| |_|  \__, |
+                                                              |___/                                                    |___/ 
+
+[ INFO  ] - 2018-12-04 12:16:31 - [  comon-serv:311  ]- Scanning all directory...
+[ INFO  ] - 2018-12-04 12:16:31 - [  dog-comp:93  ]- ===================== Read the Configuaration Information ===========================
+[ INFO  ] - 2018-12-04 12:16:31 - [  dog-comp:94  ]- Polling Time [ 1 ]
+[ INFO  ] - 2018-12-04 12:16:31 - [  dog-comp:95  ]- Intial Polling Time [ 60000 ]
+[ INFO  ] - 2018-12-04 12:16:31 - [  dog-comp:97  ]- Batch File Path [ c:/dataload/TMAPIBatch/BatchFile/process.bat ]
+[ INFO  ] - 2018-12-04 12:16:31 - [  dog-comp:98  ]- Input Directory [ c:/dataload/TMAPIBatch/Input1 ]
+[ INFO  ] - 2018-12-04 12:16:31 - [  dog-comp:99  ]- Output Directory [ c:/dataload/TMAPIBatch/Output1 ]
+[ INFO  ] - 2018-12-04 12:16:31 - [  dog-comp:100  ]- Archive Directory [  c:/dataload/TMAPIBatch/Archive1 ]
+[ INFO  ] - 2018-12-04 12:16:31 - [  dog-comp:101  ]- Filure Directory [  c:/dataload/TMAPIBatch/Failure1 ]
+[ INFO  ] - 2018-12-04 12:16:31 - [  dog-comp:102  ]- File Extension [ xml ]
+[ INFO  ] - 2018-12-04 12:16:31 - [  dog-comp:103  ]- File Type Separator [ @ ]
+[ INFO  ] - 2018-12-04 12:16:31 - [  dog-comp:104  ]- Response XML file start with [ Out_ ]
+[ INFO  ] - 2018-12-04 12:16:31 - [  dog-comp:105  ]- File Supports with [ cam,dc,so,edi,ssc,shipload,fbpay,fbprocess ]
+[ INFO  ] - 2018-12-04 12:16:31 - [  dog-comp:107  ]- Fin Input Directory [ c:/dataload/TMAPIBatch/Fin ]
+[ INFO  ] - 2018-12-04 12:16:31 - [  dog-comp:108  ]- NonEdi Input Directory [  c:/dataload/TMAPIBatch/InputNonEdi ]
+[ INFO  ] - 2018-12-04 12:16:31 - [  dog-comp:109  ]- Fin File Supports with [ csi ]
+[ INFO  ] - 2018-12-04 12:16:31 - [  dog-comp:110  ]- SO Opt Input Directory [ C:/dataload/TMAPIBatch/SOInput ]
+[ INFO  ] - 2018-12-04 12:16:31 - [  dog-comp:111  ]- FBPay Input Directory [ C:\dataload\TMAPIBatch\FBPay ]
+[ INFO  ] - 2018-12-04 12:16:31 - [  dog-comp:112  ]- BLK Input Directory [ Input/BLK-Input ]
+[ INFO  ] - 2018-12-04 12:16:31 - [  dog-comp:114  ]- File Run [ false ]
+[ INFO  ] - 2018-12-04 12:16:31 - [  dog-comp:115  ]- Fin Run [ true ]
+[ INFO  ] - 2018-12-04 12:16:31 - [  dog-comp:116  ]- NonEdi Run [ true ]
+[ INFO  ] - 2018-12-04 12:16:31 - [  dog-comp:117  ]- SO Run [ true ]
+[ INFO  ] - 2018-12-04 12:16:31 - [  dog-comp:118  ]- BLK Run [ true ]
+[ INFO  ] - 2018-12-04 12:16:31 - [  dog-comp:120  ]- ======================================================================================
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.h.SimpleUrlHandlerMapping:373  ]- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerAdapter:588  ]- Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1117f44: startup date [Tue Dec 04 12:16:22 IST 2018]; root of context hierarchy
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/errorpage]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogErrorController.renderErrorPage(javax.servlet.http.HttpServletRequest)
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/shutdownContext],methods=[GET]}" onto public void com.hcl.dog.controller.ShutdownController.shutdownContext()
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/restartContext]}" onto public java.lang.String com.hcl.dog.controller.ShutdownController.satrtContext()
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/logspage]}" onto public java.lang.String com.hcl.dog.controller.DogController.logsPage(org.springframework.ui.ModelMap)
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/inputdir]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.inputDir()
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/responseoutcontent]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.responseOutConent()
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/archiveoutcontent]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.archiveOutContent()
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/failuredircontent]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.failureDirContent(javax.servlet.http.HttpServletRequest)
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/renameinvalidfile/{fileName}/{fileType}]}" onto public java.lang.String com.hcl.dog.controller.DogController.renameInvalidFile(java.lang.String,java.lang.String,org.springframework.ui.Model)
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/deletefilefrominput/{fromwhere}/{fileName}]}" onto public java.lang.String com.hcl.dog.controller.DogController.deleteFileFromInputDir(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse)
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/run]}" onto public java.lang.String com.hcl.dog.controller.DogController.startedApps()
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/cronvalidator]}" onto public boolean com.hcl.dog.controller.DogController.cronValidator(javax.servlet.http.HttpServletRequest)
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/]}" onto public java.lang.String com.hcl.dog.controller.DogController.defaultPage(java.util.Map<java.lang.String, java.lang.Object>)
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/reportspage]}" onto public java.lang.String com.hcl.dog.controller.DogController.reportsPage(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/configfile]}" onto public java.lang.String com.hcl.dog.controller.DogController.fileConfig(org.springframework.ui.ModelMap)
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/logspagecontent]}" onto public java.lang.String com.hcl.dog.controller.DogController.logsPageContent(org.springframework.ui.ModelMap)
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/responseout]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.responseOut()
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/restoreconfig]}" onto public java.lang.String com.hcl.dog.controller.DogController.restoreConfig(org.springframework.ui.ModelMap)
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/reportslist/{reportsdb}],methods=[POST]}" onto public java.util.List<com.hcl.dog.domain.Report> com.hcl.dog.controller.DogController.getReportsList(java.lang.String)
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/status]}" onto public java.lang.String com.hcl.dog.controller.DogController.statusPage(java.util.Map<java.lang.String, java.lang.Object>)
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/saveconfiginfo]}" onto public java.lang.String com.hcl.dog.controller.DogController.saveConfigInfo(com.hcl.dog.dto.SettingsInfoDto,org.springframework.validation.BindingResult,org.springframework.ui.ModelMap)
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/fileupload]}" onto public java.lang.String com.hcl.dog.controller.DogController.fileUpload(java.util.Map<java.lang.String, java.lang.Object>)
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/failuredir]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.failureDir(javax.servlet.http.HttpServletRequest)
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/inputdirbulk]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.inputDirBLK()
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/movetoinputdir/{fileName}/{type}]}" onto public java.lang.String com.hcl.dog.controller.DogController.moveToInputDir(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse)
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/inputdirfbpay]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.inputDirFBPay()
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/inputdirso]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.inputDirSO()
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/archiveout]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.archiveOut()
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/inputdirnonedi]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.inputDirNonEdi()
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/downloadfile/{fileName}/{fileType}]}" onto public java.lang.String com.hcl.dog.controller.DogController.downloadFile(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse)
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/inputdircontent]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.inputDirContent()
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/uploadfile],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.uploadFile(org.springframework.web.multipart.MultipartFile)
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/inputdirfin]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.inputDirFin()
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/planid]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.planId()
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/dologin],methods=[POST]}" onto public java.lang.String com.hcl.dog.controller.UserController.doLogin(javax.servlet.http.HttpSession,com.hcl.dog.dto.UserDto,org.springframework.ui.Model)
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/edituser]}" onto public java.lang.String com.hcl.dog.controller.UserController.edutUser(javax.servlet.http.HttpServletRequest,com.hcl.dog.dto.UserDto,org.springframework.ui.ModelMap)
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/saveuser]}" onto public java.lang.String com.hcl.dog.controller.UserController.saveUser(com.hcl.dog.dto.UserDto,org.springframework.validation.BindingResult,org.springframework.ui.Model)
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/logout]}" onto public java.lang.String com.hcl.dog.controller.UserController.logout(javax.servlet.http.HttpSession)
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/showusers]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.UserController.inputDir(org.springframework.ui.ModelMap)
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/emailcheck]}" onto public boolean com.hcl.dog.controller.UserController.checkEmail(javax.servlet.http.HttpServletRequest)
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/restoreuser]}" onto public java.lang.String com.hcl.dog.controller.UserController.restoreUsers(org.springframework.ui.ModelMap)
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/reguser]}" onto public java.lang.String com.hcl.dog.controller.UserController.userRegis(javax.servlet.http.HttpSession,org.springframework.ui.ModelMap)
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/updateuser]}" onto public java.lang.String com.hcl.dog.controller.UserController.updateUser(com.hcl.dog.domain.User,org.springframework.validation.BindingResult,org.springframework.ui.Model)
+[ INFO  ] - 2018-12-04 12:16:32 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/login]}" onto public java.lang.String com.hcl.dog.controller.UserController.login()
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.s.w.s.h.SimpleUrlHandlerMapping:373  ]- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.s.w.s.h.SimpleUrlHandlerMapping:373  ]- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver:288  ]- Detected @ExceptionHandler methods in globalExceptionHandler
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.s.b.a.e.w.EndpointLinksResolver:59  ]- Exposing 16 endpoint(s) beneath base path '/actuator'
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/auditevents],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/beans],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/conditions],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/shutdown],methods=[POST],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/configprops],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/env],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/env/{toMatch}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/logfile],methods=[GET],produces=[application/octet-stream]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/loggers],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/loggers/{name}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/loggers/{name}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/heapdump],methods=[GET],produces=[application/octet-stream]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/threaddump],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/metrics],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/metrics/{requiredMetricName}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/scheduledtasks],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/httptrace],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/mappings],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.s.j.e.a.AnnotationMBeanExporter:433  ]- Registering beans for JMX exposure on startup
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.s.c.s.DefaultLifecycleProcessor:356  ]- Starting beans in phase 2147483647
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.s.s.q.SchedulerFactoryBean:706  ]- Starting Quartz Scheduler now
+[ INFO  ] - 2018-12-04 12:16:33 - [  o.q.c.QuartzScheduler:547  ]- Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[ INFO  ] - 2018-12-04 12:16:34 - [  o.s.s.a.ScheduledAnnotationBeanPostProcessor:276  ]- No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+[ INFO  ] - 2018-12-04 12:16:34 - [  o.s.b.w.e.t.TomcatWebServer:206  ]- Tomcat started on port(s): 5401 (http) with context path ''
+[ INFO  ] - 2018-12-04 12:16:34 - [  c.h.WatchDogWebApp:59  ]- Started WatchDogWebApp in 13.16 seconds (JVM running for 16.897)
+[ INFO  ] - 2018-12-04 12:16:36 - [  o.a.c.c.C.[.[.[/]:180  ]- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[ INFO  ] - 2018-12-04 12:16:36 - [  o.s.w.s.DispatcherServlet:494  ]- FrameworkServlet 'dispatcherServlet': initialization started
+[ INFO  ] - 2018-12-04 12:16:37 - [  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:991  ]- Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1117f44: startup date [Tue Dec 04 12:16:22 IST 2018]; root of context hierarchy
+[ INFO  ] - 2018-12-04 12:16:37 - [  o.s.c.s.DefaultLifecycleProcessor:369  ]- Stopping beans in phase 2147483647
+[ INFO  ] - 2018-12-04 12:16:37 - [  o.q.c.QuartzScheduler:585  ]- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[ INFO  ] - 2018-12-04 12:16:37 - [  o.s.j.e.a.AnnotationMBeanExporter:451  ]- Unregistering JMX-exposed beans on shutdown
+[ INFO  ] - 2018-12-04 12:16:37 - [  app-cleanup:120  ]- Before closing called System GC.
+[ INFO  ] - 2018-12-04 12:16:37 - [  o.q.c.QuartzScheduler:666  ]- Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[ INFO  ] - 2018-12-04 12:16:37 - [  o.q.c.QuartzScheduler:585  ]- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[ INFO  ] - 2018-12-04 12:16:37 - [  o.q.c.QuartzScheduler:740  ]- Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[ INFO  ] - 2018-12-04 12:16:37 - [  app-cleanup:134  ]- Happy to safe closing with ( CTR + C ).
+[ INFO  ] - 2018-12-04 12:16:37 - [  app-cleanup:135  ]- 
+Sometimes it took serveral minutes to close as it has been running since long time.
+[ INFO  ] - 2018-12-04 12:16:37 - [  app-cleanup:136  ]- Be Patience... Resources Cleanup Running 
+
+[ INFO  ] - 2018-12-04 12:16:37 - [  app-cleanup:137  ]- 
+
+ __        __          _            _         ____                       ____   _                 _                 
+ \ \      / /   __ _  | |_    ___  | |__     |  _ \    ___     __ _     / ___| | |   ___    ___  (_)  _ __     __ _ 
+  \ \ /\ / /   / _` | | __|  / __| | '_ \    | | | |  / _ \   / _` |   | |     | |  / _ \  / __| | | | '_ \   / _` |
+   \ V  V /   | (_| | | |_  | (__  | | | |   | |_| | | (_) | | (_| |   | |___  | | | (_) | \__ \ | | | | | | | (_| |
+    \_/\_/     \__,_|  \__|  \___| |_| |_|   |____/   \___/   \__, |    \____| |_|  \___/  |___/ |_| |_| |_|  \__, |
+                                                              |___/                                           |___/ 
+
+[ INFO  ] - 2018-12-04 12:16:38 - [  o.s.s.q.SchedulerFactoryBean:830  ]- Shutting down Quartz Scheduler
+[ INFO  ] - 2018-12-04 12:16:38 - [  o.s.w.s.h.SimpleUrlHandlerMapping:373  ]- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[ ERROR ] - 2018-12-04 12:16:38 - [  o.s.w.s.DispatcherServlet:503  ]- Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]: Factory method 'requestMappingHandlerMapping' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:591)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1246)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:514)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1204)
+	at org.springframework.beans.factory.BeanFactoryUtils.beansOfTypeIncludingAncestors(BeanFactoryUtils.java:327)
+	at org.springframework.web.servlet.DispatcherServlet.initHandlerMappings(DispatcherServlet.java:586)
+	at org.springframework.web.servlet.DispatcherServlet.initStrategies(DispatcherServlet.java:501)
+	at org.springframework.web.servlet.DispatcherServlet.onRefresh(DispatcherServlet.java:490)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:561)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:499)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:172)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1144)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:789)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:133)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]: Factory method 'requestMappingHandlerMapping' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:583)
+	... 36 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:591)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1246)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.resolveBeanReference(ConfigurationClassEnhancer.java:396)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:368)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$2a35347.mvcConversionService(<generated>)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.getInterceptors(WebMvcConfigurationSupport.java:331)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.requestMappingHandlerMapping(WebMvcConfigurationSupport.java:282)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.requestMappingHandlerMapping(WebMvcAutoConfiguration.java:487)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$2a35347.CGLIB$requestMappingHandlerMapping$2(<generated>)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$2a35347$$FastClassBySpringCGLIB$$e84a4a7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:365)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$2a35347.requestMappingHandlerMapping(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 37 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:583)
+	... 61 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.mvcConversionService(WebMvcAutoConfiguration.java:494)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$2a35347.CGLIB$mvcConversionService$0(<generated>)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$2a35347$$FastClassBySpringCGLIB$$e84a4a7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:365)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$2a35347.mvcConversionService(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 62 common frames omitted
+[ INFO  ] - 2018-12-04 12:16:38 - [  o.s.w.s.DispatcherServlet:494  ]- FrameworkServlet 'dispatcherServlet': initialization started
+[ ERROR ] - 2018-12-04 12:16:38 - [  o.s.w.s.DispatcherServlet:503  ]- Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]: Factory method 'requestMappingHandlerMapping' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:591)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1246)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:514)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1204)
+	at org.springframework.beans.factory.BeanFactoryUtils.beansOfTypeIncludingAncestors(BeanFactoryUtils.java:327)
+	at org.springframework.web.servlet.DispatcherServlet.initHandlerMappings(DispatcherServlet.java:586)
+	at org.springframework.web.servlet.DispatcherServlet.initStrategies(DispatcherServlet.java:501)
+	at org.springframework.web.servlet.DispatcherServlet.onRefresh(DispatcherServlet.java:490)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:561)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:499)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:172)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1144)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:789)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:704)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:472)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:395)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:316)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:395)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:254)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:349)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]: Factory method 'requestMappingHandlerMapping' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:583)
+	... 40 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:591)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1246)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.resolveBeanReference(ConfigurationClassEnhancer.java:396)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:368)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$2a35347.mvcConversionService(<generated>)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.getInterceptors(WebMvcConfigurationSupport.java:331)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.requestMappingHandlerMapping(WebMvcConfigurationSupport.java:282)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.requestMappingHandlerMapping(WebMvcAutoConfiguration.java:487)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$2a35347.CGLIB$requestMappingHandlerMapping$2(<generated>)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$2a35347$$FastClassBySpringCGLIB$$e84a4a7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:365)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$2a35347.requestMappingHandlerMapping(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 41 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:583)
+	... 65 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.mvcConversionService(WebMvcAutoConfiguration.java:494)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$2a35347.CGLIB$mvcConversionService$0(<generated>)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$2a35347$$FastClassBySpringCGLIB$$e84a4a7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:365)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$2a35347.mvcConversionService(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 66 common frames omitted
+[ INFO  ] - 2018-12-04 12:16:38 - [  xmlutil-serv:116  ]- Data saved sucessfully...
+[ INFO  ] - 2018-12-04 12:16:38 - [  app-cleanup:144  ]- Checking server status
+[ INFO  ] - 2018-12-04 12:16:38 - [  xmlutil-serv:92  ]- Data unmarshal sucessfully...
+[ ERROR ] - 2018-12-04 12:17:34 - [  o.s.b.c.l.LoggingApplicationListener:317  ]- Cannot set level: debug		 for 'com.hcl'
+[ INFO  ] - 2018-12-04 12:17:36 - [  c.h.WatchDogWebApp:50  ]- Starting WatchDogWebApp v2.5-SNAPSHOT on LP-5CD809BB4K with PID 157008 (C:\Users\intakhabalam.s\Desktop\ftp\Watch-Dog-Web\WatchDog.war started by intakhabalam.s in C:\Users\intakhabalam.s\Desktop\ftp\Watch-Dog-Web)
+[ INFO  ] - 2018-12-04 12:17:36 - [  c.h.WatchDogWebApp:654  ]- No active profile set, falling back to default profiles: default
+[ INFO  ] - 2018-12-04 12:17:36 - [  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:588  ]- Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@17b1517: startup date [Tue Dec 04 12:17:36 IST 2018]; root of context hierarchy
+[ INFO  ] - 2018-12-04 12:17:39 - [  o.s.b.w.e.t.TomcatWebServer:91  ]- Tomcat initialized with port(s): 5400 (http)
+[ INFO  ] - 2018-12-04 12:17:39 - [  o.a.c.c.StandardService:180  ]- Starting service [Tomcat]
+[ INFO  ] - 2018-12-04 12:17:39 - [  o.a.c.c.StandardEngine:180  ]- Starting Servlet Engine: Apache Tomcat/8.5.34
+[ INFO  ] - 2018-12-04 12:17:39 - [  o.a.c.c.AprLifecycleListener:180  ]- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Windows\CCM;C:\Workspace\installer\node-v8.11.1;C:\Workspace\installer\Git\cmd\git.exe;C:\Workspace\installer\Git\cmd;C:\Workspace\installer\jdk1.8.0_101\bin;C:\Users\intakhabalam.s\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;.]
+[ INFO  ] - 2018-12-04 12:17:41 - [  o.a.j.s.TldScanner:180  ]- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[ INFO  ] - 2018-12-04 12:17:42 - [  o.a.c.c.C.[.[.[/]:180  ]- Initializing Spring embedded WebApplicationContext
+[ INFO  ] - 2018-12-04 12:17:42 - [  o.s.w.c.ContextLoader:285  ]- Root WebApplicationContext: initialization completed in 5725 ms
+[ INFO  ] - 2018-12-04 12:17:43 - [  o.s.b.w.s.FilterRegistrationBean:245  ]- Mapping filter: 'webFilter' to: [/*]
+[ INFO  ] - 2018-12-04 12:17:43 - [  o.s.b.w.s.FilterRegistrationBean:245  ]- Mapping filter: 'characterEncodingFilter' to: [/*]
+[ INFO  ] - 2018-12-04 12:17:43 - [  o.s.b.w.s.FilterRegistrationBean:245  ]- Mapping filter: 'webMvcMetricsFilter' to: [/*]
+[ INFO  ] - 2018-12-04 12:17:43 - [  o.s.b.w.s.FilterRegistrationBean:245  ]- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[ INFO  ] - 2018-12-04 12:17:43 - [  o.s.b.w.s.FilterRegistrationBean:245  ]- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[ INFO  ] - 2018-12-04 12:17:43 - [  o.s.b.w.s.FilterRegistrationBean:245  ]- Mapping filter: 'requestContextFilter' to: [/*]
+[ INFO  ] - 2018-12-04 12:17:43 - [  o.s.b.w.s.FilterRegistrationBean:245  ]- Mapping filter: 'httpTraceFilter' to: [/*]
+[ INFO  ] - 2018-12-04 12:17:43 - [  o.s.b.w.s.ServletRegistrationBean:187  ]- Servlet dispatcherServlet mapped to [/]
+[ INFO  ] - 2018-12-04 12:17:43 - [  setting-serv:154  ]- Converting Object To Dto
+[ INFO  ] - 2018-12-04 12:17:43 - [  xmlutil-serv:92  ]- Data unmarshal sucessfully...
+[ INFO  ] - 2018-12-04 12:17:43 - [  dataload-comp:48  ]- Configuration data loading from DB
+[ INFO  ] - 2018-12-04 12:17:43 - [  o.q.i.StdSchedulerFactory:1208  ]- Using default implementation for ThreadExecutor
+[ INFO  ] - 2018-12-04 12:17:43 - [  o.q.c.SchedulerSignalerImpl:61  ]- Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[ INFO  ] - 2018-12-04 12:17:43 - [  o.q.c.QuartzScheduler:229  ]- Quartz Scheduler v.2.3.0 created.
+[ INFO  ] - 2018-12-04 12:17:43 - [  o.q.s.RAMJobStore:155  ]- RAMJobStore initialized.
+[ INFO  ] - 2018-12-04 12:17:43 - [  o.q.c.QuartzScheduler:294  ]- Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[ INFO  ] - 2018-12-04 12:17:43 - [  o.q.i.StdSchedulerFactory:1362  ]- Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[ INFO  ] - 2018-12-04 12:17:43 - [  o.q.i.StdSchedulerFactory:1366  ]- Quartz scheduler version: 2.3.0
+[ INFO  ] - 2018-12-04 12:17:43 - [  o.q.c.QuartzScheduler:2287  ]- JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@11426f4
+[ INFO  ] - 2018-12-04 12:17:43 - [  dog-comp:87  ]- 
+
+ __        __          _            _         ____                      ____    _                    _     _                 
+ \ \      / /   __ _  | |_    ___  | |__     |  _ \    ___     __ _    / ___|  | |_    __ _   _ __  | |_  (_)  _ __     __ _ 
+  \ \ /\ / /   / _` | | __|  / __| | '_ \    | | | |  / _ \   / _` |   \___ \  | __|  / _` | | '__| | __| | | | '_ \   / _` |
+   \ V  V /   | (_| | | |_  | (__  | | | |   | |_| | | (_) | | (_| |    ___) | | |_  | (_| | | |    | |_  | | | | | | | (_| |
+    \_/\_/     \__,_|  \__|  \___| |_| |_|   |____/   \___/   \__, |   |____/   \__|  \__,_| |_|     \__| |_| |_| |_|  \__, |
+                                                              |___/                                                    |___/ 
+
+[ INFO  ] - 2018-12-04 12:17:43 - [  comon-serv:311  ]- Scanning all directory...
+[ INFO  ] - 2018-12-04 12:17:43 - [  dog-comp:93  ]- ===================== Read the Configuaration Information ===========================
+[ INFO  ] - 2018-12-04 12:17:43 - [  dog-comp:94  ]- Polling Time [ 1 ]
+[ INFO  ] - 2018-12-04 12:17:43 - [  dog-comp:95  ]- Intial Polling Time [ 60000 ]
+[ INFO  ] - 2018-12-04 12:17:43 - [  dog-comp:97  ]- Batch File Path [ c:/dataload/TMAPIBatch/BatchFile/process.bat ]
+[ INFO  ] - 2018-12-04 12:17:43 - [  dog-comp:98  ]- Input Directory [ c:/dataload/TMAPIBatch/Input1 ]
+[ INFO  ] - 2018-12-04 12:17:43 - [  dog-comp:99  ]- Output Directory [ c:/dataload/TMAPIBatch/Output1 ]
+[ INFO  ] - 2018-12-04 12:17:43 - [  dog-comp:100  ]- Archive Directory [  c:/dataload/TMAPIBatch/Archive1 ]
+[ INFO  ] - 2018-12-04 12:17:43 - [  dog-comp:101  ]- Filure Directory [  c:/dataload/TMAPIBatch/Failure1 ]
+[ INFO  ] - 2018-12-04 12:17:43 - [  dog-comp:102  ]- File Extension [ xml ]
+[ INFO  ] - 2018-12-04 12:17:43 - [  dog-comp:103  ]- File Type Separator [ @ ]
+[ INFO  ] - 2018-12-04 12:17:43 - [  dog-comp:104  ]- Response XML file start with [ Out_ ]
+[ INFO  ] - 2018-12-04 12:17:43 - [  dog-comp:105  ]- File Supports with [ cam,dc,so,edi,ssc,shipload,fbpay,fbprocess ]
+[ INFO  ] - 2018-12-04 12:17:43 - [  dog-comp:107  ]- Fin Input Directory [ c:/dataload/TMAPIBatch/Fin ]
+[ INFO  ] - 2018-12-04 12:17:43 - [  dog-comp:108  ]- NonEdi Input Directory [  c:/dataload/TMAPIBatch/InputNonEdi ]
+[ INFO  ] - 2018-12-04 12:17:43 - [  dog-comp:109  ]- Fin File Supports with [ csi ]
+[ INFO  ] - 2018-12-04 12:17:43 - [  dog-comp:110  ]- SO Opt Input Directory [ C:/dataload/TMAPIBatch/SOInput ]
+[ INFO  ] - 2018-12-04 12:17:43 - [  dog-comp:111  ]- FBPay Input Directory [ C:\dataload\TMAPIBatch\FBPay ]
+[ INFO  ] - 2018-12-04 12:17:43 - [  dog-comp:112  ]- BLK Input Directory [ Input/BLK-Input ]
+[ INFO  ] - 2018-12-04 12:17:43 - [  dog-comp:114  ]- File Run [ false ]
+[ INFO  ] - 2018-12-04 12:17:43 - [  dog-comp:115  ]- Fin Run [ true ]
+[ INFO  ] - 2018-12-04 12:17:43 - [  dog-comp:116  ]- NonEdi Run [ true ]
+[ INFO  ] - 2018-12-04 12:17:43 - [  dog-comp:117  ]- SO Run [ true ]
+[ INFO  ] - 2018-12-04 12:17:43 - [  dog-comp:118  ]- BLK Run [ true ]
+[ INFO  ] - 2018-12-04 12:17:43 - [  dog-comp:120  ]- ======================================================================================
+[ INFO  ] - 2018-12-04 12:17:43 - [  o.s.w.s.h.SimpleUrlHandlerMapping:373  ]- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerAdapter:588  ]- Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@17b1517: startup date [Tue Dec 04 12:17:36 IST 2018]; root of context hierarchy
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/errorpage]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogErrorController.renderErrorPage(javax.servlet.http.HttpServletRequest)
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/restartContext]}" onto public java.lang.String com.hcl.dog.controller.ShutdownController.satrtContext()
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/shutdownContext],methods=[GET]}" onto public void com.hcl.dog.controller.ShutdownController.shutdownContext()
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/cronvalidator]}" onto public boolean com.hcl.dog.controller.DogController.cronValidator(javax.servlet.http.HttpServletRequest)
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/]}" onto public java.lang.String com.hcl.dog.controller.DogController.defaultPage(java.util.Map<java.lang.String, java.lang.Object>)
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/run]}" onto public java.lang.String com.hcl.dog.controller.DogController.startedApps()
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/logspagecontent]}" onto public java.lang.String com.hcl.dog.controller.DogController.logsPageContent(org.springframework.ui.ModelMap)
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/status]}" onto public java.lang.String com.hcl.dog.controller.DogController.statusPage(java.util.Map<java.lang.String, java.lang.Object>)
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/configfile]}" onto public java.lang.String com.hcl.dog.controller.DogController.fileConfig(org.springframework.ui.ModelMap)
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/saveconfiginfo]}" onto public java.lang.String com.hcl.dog.controller.DogController.saveConfigInfo(com.hcl.dog.dto.SettingsInfoDto,org.springframework.validation.BindingResult,org.springframework.ui.ModelMap)
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/restoreconfig]}" onto public java.lang.String com.hcl.dog.controller.DogController.restoreConfig(org.springframework.ui.ModelMap)
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/responseout]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.responseOut()
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/archiveout]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.archiveOut()
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/inputdirbulk]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.inputDirBLK()
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/failuredir]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.failureDir(javax.servlet.http.HttpServletRequest)
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/reportslist/{reportsdb}],methods=[POST]}" onto public java.util.List<com.hcl.dog.domain.Report> com.hcl.dog.controller.DogController.getReportsList(java.lang.String)
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/inputdirso]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.inputDirSO()
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/inputdirnonedi]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.inputDirNonEdi()
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/fileupload]}" onto public java.lang.String com.hcl.dog.controller.DogController.fileUpload(java.util.Map<java.lang.String, java.lang.Object>)
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/uploadfile],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.uploadFile(org.springframework.web.multipart.MultipartFile)
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/downloadfile/{fileName}/{fileType}]}" onto public java.lang.String com.hcl.dog.controller.DogController.downloadFile(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse)
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/inputdirfbpay]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.inputDirFBPay()
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/reportspage]}" onto public java.lang.String com.hcl.dog.controller.DogController.reportsPage(org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest)
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/inputdirfin]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.inputDirFin()
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/inputdircontent]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.inputDirContent()
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/movetoinputdir/{fileName}/{type}]}" onto public java.lang.String com.hcl.dog.controller.DogController.moveToInputDir(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse)
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/inputdir]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.inputDir()
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/logspage]}" onto public java.lang.String com.hcl.dog.controller.DogController.logsPage(org.springframework.ui.ModelMap)
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/planid]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.planId()
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/responseoutcontent]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.responseOutConent()
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/failuredircontent]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.failureDirContent(javax.servlet.http.HttpServletRequest)
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/archiveoutcontent]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.DogController.archiveOutContent()
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/deletefilefrominput/{fromwhere}/{fileName}]}" onto public java.lang.String com.hcl.dog.controller.DogController.deleteFileFromInputDir(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse)
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/renameinvalidfile/{fileName}/{fileType}]}" onto public java.lang.String com.hcl.dog.controller.DogController.renameInvalidFile(java.lang.String,java.lang.String,org.springframework.ui.Model)
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/reguser]}" onto public java.lang.String com.hcl.dog.controller.UserController.userRegis(javax.servlet.http.HttpSession,org.springframework.ui.ModelMap)
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/restoreuser]}" onto public java.lang.String com.hcl.dog.controller.UserController.restoreUsers(org.springframework.ui.ModelMap)
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/emailcheck]}" onto public boolean com.hcl.dog.controller.UserController.checkEmail(javax.servlet.http.HttpServletRequest)
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/updateuser]}" onto public java.lang.String com.hcl.dog.controller.UserController.updateUser(com.hcl.dog.domain.User,org.springframework.validation.BindingResult,org.springframework.ui.Model)
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/login]}" onto public java.lang.String com.hcl.dog.controller.UserController.login()
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/logout]}" onto public java.lang.String com.hcl.dog.controller.UserController.logout(javax.servlet.http.HttpSession)
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/showusers]}" onto public org.springframework.web.servlet.ModelAndView com.hcl.dog.controller.UserController.inputDir(org.springframework.ui.ModelMap)
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/dologin],methods=[POST]}" onto public java.lang.String com.hcl.dog.controller.UserController.doLogin(javax.servlet.http.HttpSession,com.hcl.dog.dto.UserDto,org.springframework.ui.Model)
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/saveuser]}" onto public java.lang.String com.hcl.dog.controller.UserController.saveUser(com.hcl.dog.dto.UserDto,org.springframework.validation.BindingResult,org.springframework.ui.Model)
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.RequestMappingHandlerMapping:549  ]- Mapped "{[/edituser]}" onto public java.lang.String com.hcl.dog.controller.UserController.edutUser(javax.servlet.http.HttpServletRequest,com.hcl.dog.dto.UserDto,org.springframework.ui.ModelMap)
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.h.SimpleUrlHandlerMapping:373  ]- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.h.SimpleUrlHandlerMapping:373  ]- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[ INFO  ] - 2018-12-04 12:17:44 - [  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver:288  ]- Detected @ExceptionHandler methods in globalExceptionHandler
+[ INFO  ] - 2018-12-04 12:17:45 - [  o.s.b.a.e.w.EndpointLinksResolver:59  ]- Exposing 16 endpoint(s) beneath base path '/actuator'
+[ INFO  ] - 2018-12-04 12:17:45 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/auditevents],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:17:45 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/beans],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:17:45 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:17:45 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/conditions],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:17:45 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/shutdown],methods=[POST],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:17:45 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/configprops],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:17:45 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/env],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:17:45 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/env/{toMatch}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:17:45 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:17:45 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/logfile],methods=[GET],produces=[application/octet-stream]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:17:45 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/loggers/{name}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:17:45 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/loggers],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:17:45 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/loggers/{name}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:17:45 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/heapdump],methods=[GET],produces=[application/octet-stream]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:17:45 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/threaddump],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:17:45 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/metrics],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:17:45 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/metrics/{requiredMetricName}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:17:45 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/scheduledtasks],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:17:45 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/httptrace],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:17:45 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator/mappings],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[ INFO  ] - 2018-12-04 12:17:45 - [  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping:549  ]- Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[ INFO  ] - 2018-12-04 12:17:45 - [  o.s.j.e.a.AnnotationMBeanExporter:433  ]- Registering beans for JMX exposure on startup
+[ INFO  ] - 2018-12-04 12:17:45 - [  o.s.c.s.DefaultLifecycleProcessor:356  ]- Starting beans in phase 2147483647
+[ INFO  ] - 2018-12-04 12:17:45 - [  o.s.s.q.SchedulerFactoryBean:706  ]- Starting Quartz Scheduler now
+[ INFO  ] - 2018-12-04 12:17:45 - [  o.q.c.QuartzScheduler:547  ]- Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[ INFO  ] - 2018-12-04 12:17:45 - [  o.s.s.a.ScheduledAnnotationBeanPostProcessor:276  ]- No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+[ INFO  ] - 2018-12-04 12:17:45 - [  o.s.b.w.e.t.TomcatWebServer:206  ]- Tomcat started on port(s): 5400 (http) with context path ''
+[ INFO  ] - 2018-12-04 12:17:45 - [  c.h.WatchDogWebApp:59  ]- Started WatchDogWebApp in 11.797 seconds (JVM running for 13.066)
+[ INFO  ] - 2018-12-04 12:17:49 - [  app-cleanup:144  ]- Checking server status
+[ INFO  ] - 2018-12-04 12:17:49 - [  xmlutil-serv:92  ]- Data unmarshal sucessfully...
+[ INFO  ] - 2018-12-04 12:17:49 - [  app-cleanup:150  ]- WatchDog application Port has been changed {} 
+[ INFO  ] - 2018-12-04 12:17:51 - [  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:991  ]- Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@17b1517: startup date [Tue Dec 04 12:17:36 IST 2018]; root of context hierarchy
+[ INFO  ] - 2018-12-04 12:17:51 - [  o.s.c.s.DefaultLifecycleProcessor:369  ]- Stopping beans in phase 2147483647
+[ INFO  ] - 2018-12-04 12:17:51 - [  o.q.c.QuartzScheduler:585  ]- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[ INFO  ] - 2018-12-04 12:17:51 - [  o.s.j.e.a.AnnotationMBeanExporter:451  ]- Unregistering JMX-exposed beans on shutdown
+[ INFO  ] - 2018-12-04 12:17:51 - [  app-cleanup:120  ]- Before closing called System GC.
+[ INFO  ] - 2018-12-04 12:17:51 - [  o.q.c.QuartzScheduler:666  ]- Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[ INFO  ] - 2018-12-04 12:17:51 - [  o.q.c.QuartzScheduler:585  ]- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[ INFO  ] - 2018-12-04 12:17:51 - [  o.q.c.QuartzScheduler:740  ]- Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[ INFO  ] - 2018-12-04 12:17:51 - [  app-cleanup:134  ]- Happy to safe closing with ( CTR + C ).
+[ INFO  ] - 2018-12-04 12:17:51 - [  app-cleanup:135  ]- 
+Sometimes it took serveral minutes to close as it has been running since long time.
+[ INFO  ] - 2018-12-04 12:17:51 - [  app-cleanup:136  ]- Be Patience... Resources Cleanup Running 
+
+[ INFO  ] - 2018-12-04 12:17:51 - [  app-cleanup:137  ]- 
+
+ __        __          _            _         ____                       ____   _                 _                 
+ \ \      / /   __ _  | |_    ___  | |__     |  _ \    ___     __ _     / ___| | |   ___    ___  (_)  _ __     __ _ 
+  \ \ /\ / /   / _` | | __|  / __| | '_ \    | | | |  / _ \   / _` |   | |     | |  / _ \  / __| | | | '_ \   / _` |
+   \ V  V /   | (_| | | |_  | (__  | | | |   | |_| | | (_) | | (_| |   | |___  | | | (_) | \__ \ | | | | | | | (_| |
+    \_/\_/     \__,_|  \__|  \___| |_| |_|   |____/   \___/   \__, |    \____| |_|  \___/  |___/ |_| |_| |_|  \__, |
+                                                              |___/                                           |___/ 
+
+[ INFO  ] - 2018-12-04 12:17:51 - [  o.s.s.q.SchedulerFactoryBean:830  ]- Shutting down Quartz Scheduler
