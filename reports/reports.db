@@ -396,4 +396,16 @@
       <description>Response xml not got from TMS</description>
       <status>FAIL</status>
    </report>
+<report id="1545137157249">
+      <filename>processShipmentOrderUpdate@SO_786.xml</filename>
+      <filedat>18-12-2018_18-15-57</filedat>
+      <description>Check Output xml from TMS</description>
+      <status>FAIL</status>
+   </report>
+<report id="1545137538910">
+      <filename>processShipmentOrderUpdate@SO_786.xml</filename>
+      <filedat>18-12-2018_18-22-18</filedat>
+      <description>Check Output xml from TMS</description>
+      <status>FAIL</status>
+   </report>
 </reports>
