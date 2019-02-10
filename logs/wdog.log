@@ -1,21 +1,21 @@
-[ INFO  ] - 2019-02-09 22:17:12 - [  c.h.WatchDogWebApp:50  ]- Starting WatchDogWebApp v2.9 on LP-5CD809BB4K with PID 186428 (C:\Users\intakhabalam.s\Desktop\ftp\Watch-Dog-Web\WatchDog.war started by intakhabalam.s in C:\Users\intakhabalam.s\Desktop\ftp\Watch-Dog-Web)
-[ DEBUG ] - 2019-02-09 22:17:12 - [  c.h.WatchDogWebApp:53  ]- Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
-[ INFO  ] - 2019-02-09 22:17:12 - [  c.h.WatchDogWebApp:675  ]- No active profile set, falling back to default profiles: default
-[ INFO  ] - 2019-02-09 22:17:15 - [  o.s.b.w.e.t.TomcatWebServer:90  ]- Tomcat initialized with port(s): 5400 (http)
-[ INFO  ] - 2019-02-09 22:17:15 - [  o.a.c.c.StandardService:173  ]- Starting service [Tomcat]
-[ INFO  ] - 2019-02-09 22:17:15 - [  o.a.c.c.StandardEngine:173  ]- Starting Servlet Engine: Apache Tomcat/9.0.13
-[ INFO  ] - 2019-02-09 22:17:15 - [  o.a.c.c.AprLifecycleListener:173  ]- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Windows\CCM;C:\Workspace\installer\node-v8.11.1;C:\Workspace\installer\Git\cmd\git.exe;C:\Workspace\installer\Git\cmd;C:\Workspace\installer\jdk1.8.0_101\bin;C:\Users\intakhabalam.s\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;.]
-[ INFO  ] - 2019-02-09 22:17:18 - [  o.a.j.s.TldScanner:173  ]- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-[ INFO  ] - 2019-02-09 22:17:18 - [  o.a.c.c.C.[.[.[/]:173  ]- Initializing Spring embedded WebApplicationContext
-[ INFO  ] - 2019-02-09 22:17:18 - [  o.s.w.c.ContextLoader:296  ]- Root WebApplicationContext: initialization completed in 6141 ms
-[ INFO  ] - 2019-02-09 22:17:19 - [  setting-serv:156  ]- Converting Object To Dto
-[ INFO  ] - 2019-02-09 22:17:19 - [  xmlutil-serv:92  ]- Data unmarshal sucessfully...
-[ INFO  ] - 2019-02-09 22:17:19 - [  dataload-comp:48  ]- Configuration data loading from DB
-[ INFO  ] - 2019-02-09 22:17:20 - [  o.q.i.StdSchedulerFactory:1208  ]- Using default implementation for ThreadExecutor
-[ INFO  ] - 2019-02-09 22:17:20 - [  o.q.c.SchedulerSignalerImpl:61  ]- Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-[ INFO  ] - 2019-02-09 22:17:20 - [  o.q.c.QuartzScheduler:229  ]- Quartz Scheduler v.2.3.0 created.
-[ INFO  ] - 2019-02-09 22:17:20 - [  o.q.s.RAMJobStore:155  ]- RAMJobStore initialized.
-[ INFO  ] - 2019-02-09 22:17:20 - [  o.q.c.QuartzScheduler:294  ]- Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+[ INFO  ] - 2019-02-10 22:34:38 - [  c.h.WatchDogWebApp:50  ]- Starting WatchDogWebApp v2.9 on LP-5CD809BB4K with PID 33920 (C:\Users\intakhabalam.s\Desktop\ftp\Watch-Dog-Web\WatchDog.war started by intakhabalam.s in C:\Users\intakhabalam.s\Desktop\ftp\Watch-Dog-Web)
+[ DEBUG ] - 2019-02-10 22:34:38 - [  c.h.WatchDogWebApp:53  ]- Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+[ INFO  ] - 2019-02-10 22:34:38 - [  c.h.WatchDogWebApp:675  ]- No active profile set, falling back to default profiles: default
+[ INFO  ] - 2019-02-10 22:34:41 - [  o.s.b.w.e.t.TomcatWebServer:90  ]- Tomcat initialized with port(s): 5400 (http)
+[ INFO  ] - 2019-02-10 22:34:41 - [  o.a.c.c.StandardService:173  ]- Starting service [Tomcat]
+[ INFO  ] - 2019-02-10 22:34:41 - [  o.a.c.c.StandardEngine:173  ]- Starting Servlet Engine: Apache Tomcat/9.0.13
+[ INFO  ] - 2019-02-10 22:34:41 - [  o.a.c.c.AprLifecycleListener:173  ]- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Windows\CCM;C:\Workspace\installer\node-v8.11.1;C:\Workspace\installer\Git\cmd\git.exe;C:\Workspace\installer\Git\cmd;C:\Workspace\installer\jdk1.8.0_101\bin;C:\Users\intakhabalam.s\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;.]
+[ INFO  ] - 2019-02-10 22:34:44 - [  o.a.j.s.TldScanner:173  ]- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[ INFO  ] - 2019-02-10 22:34:45 - [  o.a.c.c.C.[.[.[/]:173  ]- Initializing Spring embedded WebApplicationContext
+[ INFO  ] - 2019-02-10 22:34:45 - [  o.s.w.c.ContextLoader:296  ]- Root WebApplicationContext: initialization completed in 6424 ms
+[ INFO  ] - 2019-02-10 22:34:45 - [  setting-serv:156  ]- Converting Object To Dto
+[ INFO  ] - 2019-02-10 22:34:46 - [  xmlutil-serv:92  ]- Data unmarshal sucessfully...
+[ INFO  ] - 2019-02-10 22:34:46 - [  dataload-comp:48  ]- Configuration data loading from DB
+[ INFO  ] - 2019-02-10 22:34:46 - [  o.q.i.StdSchedulerFactory:1208  ]- Using default implementation for ThreadExecutor
+[ INFO  ] - 2019-02-10 22:34:46 - [  o.q.c.SchedulerSignalerImpl:61  ]- Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[ INFO  ] - 2019-02-10 22:34:46 - [  o.q.c.QuartzScheduler:229  ]- Quartz Scheduler v.2.3.0 created.
+[ INFO  ] - 2019-02-10 22:34:46 - [  o.q.s.RAMJobStore:155  ]- RAMJobStore initialized.
+[ INFO  ] - 2019-02-10 22:34:46 - [  o.q.c.QuartzScheduler:294  ]- Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -23,10 +23,10 @@
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-[ INFO  ] - 2019-02-09 22:17:20 - [  o.q.i.StdSchedulerFactory:1362  ]- Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
-[ INFO  ] - 2019-02-09 22:17:20 - [  o.q.i.StdSchedulerFactory:1366  ]- Quartz scheduler version: 2.3.0
-[ INFO  ] - 2019-02-09 22:17:20 - [  o.q.c.QuartzScheduler:2287  ]- JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@19cbee5
-[ INFO  ] - 2019-02-09 22:17:20 - [  dog-comp:88  ]- 
+[ INFO  ] - 2019-02-10 22:34:46 - [  o.q.i.StdSchedulerFactory:1362  ]- Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[ INFO  ] - 2019-02-10 22:34:46 - [  o.q.i.StdSchedulerFactory:1366  ]- Quartz scheduler version: 2.3.0
+[ INFO  ] - 2019-02-10 22:34:46 - [  o.q.c.QuartzScheduler:2287  ]- JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@39680d
+[ INFO  ] - 2019-02-10 22:34:46 - [  dog-comp:88  ]- 
 
  __        __          _            _         ____                      ____    _                    _     _                 
  \ \      / /   __ _  | |_    ___  | |__     |  _ \    ___     __ _    / ___|  | |_    __ _   _ __  | |_  (_)  _ __     __ _ 
@@ -35,60 +35,60 @@
     \_/\_/     \__,_|  \__|  \___| |_| |_|   |____/   \___/   \__, |   |____/   \__|  \__,_| |_|     \__| |_| |_| |_|  \__, |
                                                               |___/                                                    |___/ 
 
-[ INFO  ] - 2019-02-09 22:17:20 - [  comon-serv:313  ]- Scanning all directory...
-[ INFO  ] - 2019-02-09 22:17:20 - [  dog-comp:94  ]- ===================== Read the Configuaration Information ===========================
-[ INFO  ] - 2019-02-09 22:17:20 - [  dog-comp:95  ]- Polling Time [ 1 ]
-[ INFO  ] - 2019-02-09 22:17:20 - [  dog-comp:96  ]- Intial Polling Time [ 60000 ]
-[ INFO  ] - 2019-02-09 22:17:20 - [  dog-comp:98  ]- Batch File Path [ c:/dataload/TMAPIBatch/BatchFile/process.bat ]
-[ INFO  ] - 2019-02-09 22:17:20 - [  dog-comp:99  ]- Input Directory [ c:/dataload/TMAPIBatch/Input1 ]
-[ INFO  ] - 2019-02-09 22:17:20 - [  dog-comp:100  ]- Output Directory [ c:/dataload/TMAPIBatch/Output1 ]
-[ INFO  ] - 2019-02-09 22:17:20 - [  dog-comp:101  ]- Archive Directory [  c:/dataload/TMAPIBatch/Archive1 ]
-[ INFO  ] - 2019-02-09 22:17:20 - [  dog-comp:102  ]- Filure Directory [  c:/dataload/TMAPIBatch/Failure1 ]
-[ INFO  ] - 2019-02-09 22:17:20 - [  dog-comp:103  ]- File Extension [ xml ]
-[ INFO  ] - 2019-02-09 22:17:20 - [  dog-comp:104  ]- File Type Separator [ @ ]
-[ INFO  ] - 2019-02-09 22:17:20 - [  dog-comp:105  ]- Response XML file start with [ Out_ ]
-[ INFO  ] - 2019-02-09 22:17:20 - [  dog-comp:106  ]- File Supports with [ cam,dc,so,edi,ssc,shipload,fbpay,fbprocess ]
-[ INFO  ] - 2019-02-09 22:17:20 - [  dog-comp:108  ]- Fin Input Directory [ c:/dataload/TMAPIBatch/Fin ]
-[ INFO  ] - 2019-02-09 22:17:20 - [  dog-comp:109  ]- NonEdi Input Directory [  c:/dataload/TMAPIBatch/InputNonEdi ]
-[ INFO  ] - 2019-02-09 22:17:20 - [  dog-comp:110  ]- Fin File Supports with [ csi ]
-[ INFO  ] - 2019-02-09 22:17:20 - [  dog-comp:111  ]- SO Opt Input Directory [ C:/dataload/TMAPIBatch/SOInput ]
-[ INFO  ] - 2019-02-09 22:17:20 - [  dog-comp:112  ]- FBPay Input Directory [ C:\dataload\TMAPIBatch\FBPay ]
-[ INFO  ] - 2019-02-09 22:17:20 - [  dog-comp:113  ]- BLK Input Directory [ Input/BLK-Input ]
-[ INFO  ] - 2019-02-09 22:17:20 - [  dog-comp:115  ]- File Run [ false ]
-[ INFO  ] - 2019-02-09 22:17:20 - [  dog-comp:116  ]- Fin Run [ true ]
-[ INFO  ] - 2019-02-09 22:17:20 - [  dog-comp:117  ]- NonEdi Run [ true ]
-[ INFO  ] - 2019-02-09 22:17:20 - [  dog-comp:118  ]- SO Run [ true ]
-[ INFO  ] - 2019-02-09 22:17:20 - [  dog-comp:119  ]- BLK Run [ true ]
-[ INFO  ] - 2019-02-09 22:17:20 - [  dog-comp:121  ]- ======================================================================================
-[ INFO  ] - 2019-02-09 22:17:20 - [  o.s.s.c.ThreadPoolTaskExecutor:171  ]- Initializing ExecutorService 'applicationTaskExecutor'
-[ INFO  ] - 2019-02-09 22:17:21 - [  o.s.s.c.ThreadPoolTaskScheduler:171  ]- Initializing ExecutorService 'taskScheduler'
-[ INFO  ] - 2019-02-09 22:17:21 - [  o.s.b.a.e.w.EndpointLinksResolver:59  ]- Exposing 17 endpoint(s) beneath base path '/actuator'
-[ INFO  ] - 2019-02-09 22:17:21 - [  o.s.s.q.SchedulerFactoryBean:726  ]- Starting Quartz Scheduler now
-[ INFO  ] - 2019-02-09 22:17:21 - [  o.q.c.QuartzScheduler:547  ]- Scheduler quartzScheduler_$_NON_CLUSTERED started.
-[ INFO  ] - 2019-02-09 22:17:21 - [  o.s.b.w.e.t.TomcatWebServer:204  ]- Tomcat started on port(s): 5400 (http) with context path ''
-[ INFO  ] - 2019-02-09 22:17:21 - [  c.h.WatchDogWebApp:59  ]- Started WatchDogWebApp in 15.498 seconds (JVM running for 22.998)
-[ INFO  ] - 2019-02-09 22:17:21 - [  o.a.c.c.C.[.[.[/]:173  ]- Initializing Spring DispatcherServlet 'dispatcherServlet'
-[ INFO  ] - 2019-02-09 22:17:21 - [  o.s.w.s.DispatcherServlet:524  ]- Initializing Servlet 'dispatcherServlet'
-[ INFO  ] - 2019-02-09 22:17:21 - [  o.s.w.s.DispatcherServlet:546  ]- Completed initialization in 9 ms
-[ INFO  ] - 2019-02-09 22:17:22 - [  xmlutil-serv:116  ]- Data saved sucessfully...
-[ INFO  ] - 2019-02-09 22:17:22 - [  app-cleanup:145  ]- Checking server status
-[ INFO  ] - 2019-02-09 22:17:22 - [  xmlutil-serv:92  ]- Data unmarshal sucessfully...
-[ ERROR ] - 2019-02-09 22:17:28 - [  app-cleanup:81  ]- Exception {run} Authentication failed; nested exception is javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
-535 5.7.8  https://support.google.com/mail/?p=BadCredentials v15sm6528844pfn.94 - gsmtp
+[ INFO  ] - 2019-02-10 22:34:46 - [  comon-serv:313  ]- Scanning all directory...
+[ INFO  ] - 2019-02-10 22:34:46 - [  dog-comp:94  ]- ===================== Read the Configuaration Information ===========================
+[ INFO  ] - 2019-02-10 22:34:46 - [  dog-comp:95  ]- Polling Time [ 1 ]
+[ INFO  ] - 2019-02-10 22:34:46 - [  dog-comp:96  ]- Intial Polling Time [ 60000 ]
+[ INFO  ] - 2019-02-10 22:34:46 - [  dog-comp:98  ]- Batch File Path [ c:/dataload/TMAPIBatch/BatchFile/process.bat ]
+[ INFO  ] - 2019-02-10 22:34:46 - [  dog-comp:99  ]- Input Directory [ c:/dataload/TMAPIBatch/Input1 ]
+[ INFO  ] - 2019-02-10 22:34:46 - [  dog-comp:100  ]- Output Directory [ c:/dataload/TMAPIBatch/Output1 ]
+[ INFO  ] - 2019-02-10 22:34:46 - [  dog-comp:101  ]- Archive Directory [  c:/dataload/TMAPIBatch/Archive1 ]
+[ INFO  ] - 2019-02-10 22:34:46 - [  dog-comp:102  ]- Filure Directory [  c:/dataload/TMAPIBatch/Failure1 ]
+[ INFO  ] - 2019-02-10 22:34:46 - [  dog-comp:103  ]- File Extension [ xml ]
+[ INFO  ] - 2019-02-10 22:34:46 - [  dog-comp:104  ]- File Type Separator [ @ ]
+[ INFO  ] - 2019-02-10 22:34:46 - [  dog-comp:105  ]- Response XML file start with [ Out_ ]
+[ INFO  ] - 2019-02-10 22:34:46 - [  dog-comp:106  ]- File Supports with [ cam,dc,so,edi,ssc,shipload,fbpay,fbprocess ]
+[ INFO  ] - 2019-02-10 22:34:46 - [  dog-comp:108  ]- Fin Input Directory [ c:/dataload/TMAPIBatch/Fin ]
+[ INFO  ] - 2019-02-10 22:34:46 - [  dog-comp:109  ]- NonEdi Input Directory [  c:/dataload/TMAPIBatch/InputNonEdi ]
+[ INFO  ] - 2019-02-10 22:34:46 - [  dog-comp:110  ]- Fin File Supports with [ csi ]
+[ INFO  ] - 2019-02-10 22:34:46 - [  dog-comp:111  ]- SO Opt Input Directory [ C:/dataload/TMAPIBatch/SOInput ]
+[ INFO  ] - 2019-02-10 22:34:46 - [  dog-comp:112  ]- FBPay Input Directory [ C:\dataload\TMAPIBatch\FBPay ]
+[ INFO  ] - 2019-02-10 22:34:46 - [  dog-comp:113  ]- BLK Input Directory [ Input/BLK-Input ]
+[ INFO  ] - 2019-02-10 22:34:46 - [  dog-comp:115  ]- File Run [ false ]
+[ INFO  ] - 2019-02-10 22:34:46 - [  dog-comp:116  ]- Fin Run [ true ]
+[ INFO  ] - 2019-02-10 22:34:46 - [  dog-comp:117  ]- NonEdi Run [ true ]
+[ INFO  ] - 2019-02-10 22:34:46 - [  dog-comp:118  ]- SO Run [ true ]
+[ INFO  ] - 2019-02-10 22:34:46 - [  dog-comp:119  ]- BLK Run [ true ]
+[ INFO  ] - 2019-02-10 22:34:46 - [  dog-comp:121  ]- ======================================================================================
+[ INFO  ] - 2019-02-10 22:34:46 - [  o.s.s.c.ThreadPoolTaskExecutor:171  ]- Initializing ExecutorService 'applicationTaskExecutor'
+[ INFO  ] - 2019-02-10 22:34:46 - [  o.s.s.c.ThreadPoolTaskScheduler:171  ]- Initializing ExecutorService 'taskScheduler'
+[ INFO  ] - 2019-02-10 22:34:47 - [  o.s.b.a.e.w.EndpointLinksResolver:59  ]- Exposing 17 endpoint(s) beneath base path '/actuator'
+[ INFO  ] - 2019-02-10 22:34:47 - [  o.s.s.q.SchedulerFactoryBean:726  ]- Starting Quartz Scheduler now
+[ INFO  ] - 2019-02-10 22:34:47 - [  o.q.c.QuartzScheduler:547  ]- Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[ INFO  ] - 2019-02-10 22:34:47 - [  o.s.b.w.e.t.TomcatWebServer:204  ]- Tomcat started on port(s): 5400 (http) with context path ''
+[ INFO  ] - 2019-02-10 22:34:47 - [  c.h.WatchDogWebApp:59  ]- Started WatchDogWebApp in 12.819 seconds (JVM running for 15.831)
+[ INFO  ] - 2019-02-10 22:34:47 - [  o.a.c.c.C.[.[.[/]:173  ]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[ INFO  ] - 2019-02-10 22:34:47 - [  o.s.w.s.DispatcherServlet:524  ]- Initializing Servlet 'dispatcherServlet'
+[ INFO  ] - 2019-02-10 22:34:47 - [  o.s.w.s.DispatcherServlet:546  ]- Completed initialization in 12 ms
+[ INFO  ] - 2019-02-10 22:34:48 - [  xmlutil-serv:116  ]- Data saved sucessfully...
+[ INFO  ] - 2019-02-10 22:34:48 - [  app-cleanup:145  ]- Checking server status
+[ INFO  ] - 2019-02-10 22:34:48 - [  xmlutil-serv:92  ]- Data unmarshal sucessfully...
+[ ERROR ] - 2019-02-10 22:34:52 - [  app-cleanup:81  ]- Exception {run} Authentication failed; nested exception is javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials g136sm13398235pfb.154 - gsmtp
 
-[ INFO  ] - 2019-02-09 22:17:32 - [  o.q.c.QuartzScheduler:585  ]- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-[ INFO  ] - 2019-02-09 22:17:32 - [  o.s.s.c.ThreadPoolTaskScheduler:208  ]- Shutting down ExecutorService 'taskScheduler'
-[ INFO  ] - 2019-02-09 22:17:32 - [  o.s.s.c.ThreadPoolTaskExecutor:208  ]- Shutting down ExecutorService 'applicationTaskExecutor'
-[ INFO  ] - 2019-02-09 22:17:32 - [  app-cleanup:121  ]- Before closing called System GC.
-[ INFO  ] - 2019-02-09 22:17:32 - [  o.q.c.QuartzScheduler:666  ]- Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
-[ INFO  ] - 2019-02-09 22:17:32 - [  o.q.c.QuartzScheduler:585  ]- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-[ INFO  ] - 2019-02-09 22:17:32 - [  o.q.c.QuartzScheduler:740  ]- Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
-[ INFO  ] - 2019-02-09 22:17:32 - [  app-cleanup:135  ]- Happy to safe closing with ( CTR + C ).
-[ INFO  ] - 2019-02-09 22:17:32 - [  app-cleanup:136  ]- 
+[ INFO  ] - 2019-02-10 22:34:57 - [  o.q.c.QuartzScheduler:585  ]- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[ INFO  ] - 2019-02-10 22:34:57 - [  o.s.s.c.ThreadPoolTaskScheduler:208  ]- Shutting down ExecutorService 'taskScheduler'
+[ INFO  ] - 2019-02-10 22:34:57 - [  o.s.s.c.ThreadPoolTaskExecutor:208  ]- Shutting down ExecutorService 'applicationTaskExecutor'
+[ INFO  ] - 2019-02-10 22:34:57 - [  app-cleanup:121  ]- Before closing called System GC.
+[ INFO  ] - 2019-02-10 22:34:57 - [  o.q.c.QuartzScheduler:666  ]- Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[ INFO  ] - 2019-02-10 22:34:57 - [  o.q.c.QuartzScheduler:585  ]- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[ INFO  ] - 2019-02-10 22:34:57 - [  o.q.c.QuartzScheduler:740  ]- Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[ INFO  ] - 2019-02-10 22:34:57 - [  app-cleanup:135  ]- Happy to safe closing with ( CTR + C ).
+[ INFO  ] - 2019-02-10 22:34:57 - [  app-cleanup:136  ]- 
 Sometimes it took serveral minutes to close as it has been running since long time.
-[ INFO  ] - 2019-02-09 22:17:32 - [  app-cleanup:137  ]- Be Patience... Resources Cleanup Running 
+[ INFO  ] - 2019-02-10 22:34:57 - [  app-cleanup:137  ]- Be Patience... Resources Cleanup Running 
 
-[ INFO  ] - 2019-02-09 22:17:32 - [  app-cleanup:138  ]- 
+[ INFO  ] - 2019-02-10 22:34:57 - [  app-cleanup:138  ]- 
 
  __        __          _            _         ____                       ____   _                 _                 
  \ \      / /   __ _  | |_    ___  | |__     |  _ \    ___     __ _     / ___| | |   ___    ___  (_)  _ __     __ _ 
@@ -97,4 +97,4 @@ Sometimes it took serveral minutes to close as it has been running since long ti
     \_/\_/     \__,_|  \__|  \___| |_| |_|   |____/   \___/   \__, |    \____| |_|  \___/  |___/ |_| |_| |_|  \__, |
                                                               |___/                                           |___/ 
 
-[ INFO  ] - 2019-02-09 22:17:32 - [  o.s.s.q.SchedulerFactoryBean:844  ]- Shutting down Quartz Scheduler
+[ INFO  ] - 2019-02-10 22:34:57 - [  o.s.s.q.SchedulerFactoryBean:844  ]- Shutting down Quartz Scheduler
